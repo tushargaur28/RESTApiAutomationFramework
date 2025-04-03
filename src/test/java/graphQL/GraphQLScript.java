@@ -25,6 +25,7 @@ public class GraphQLScript {
 				.when().post("https://rahulshettyacademy.com/gq/graphql").then().log().all().extract().response()
 				.asString();
 		System.out.println(mutationResponse);
+		System.out.println("testing github demo");
 		
 	}
 
