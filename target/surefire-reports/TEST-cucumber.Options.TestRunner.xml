@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber.Options.TestRunner" time="5.602" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/tushargaur/eclipse-workspace/APIFramework/target/test-classes:/Users/tushargaur/eclipse-workspace/APIFramework/target/classes:/Users/tushargaur/.m2/repository/io/rest-assured/rest-assured/5.5.1/rest-assured-5.5.1.jar:/Users/tushargaur/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/tushargaur/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/tushargaur/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tushargaur/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tushargaur/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tushargaur/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tushargaur/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tushargaur/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/tushargaur/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tushargaur/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1.jar:/Users/tushargaur/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/tushargaur/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1.jar:/Users/tushargaur/.m2/repository/io/rest-assured/xml-path/5.5.1/xml-path-5.5.1.jar:/Users/tushargaur/.m2/repository/org/apache/commons/commons-lang3/3.16.0/commons-lang3-3.16.0.jar:/Users/tushargaur/.m2/repository/io/cucumber/cucumber-java/4.8.0/cucumber-java-4.8.0.jar:/Users/tushargaur/.m2/repository/io/cucumber/cucumber-core/4.8.0/cucumber-core-4.8.0.jar:/Users/tushargaur/.m2/repository/io/cucumber/gherkin/5.1.0/gherkin-5.1.0.jar:/Users/tushargaur/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/Users/tushargaur/.m2/repository/io/cucumber/cucumber-expressions/7.0.2/cucumber-expressions-7.0.2.jar:/Users/tushargaur/.m2/repository/io/cucumber/datatable/1.1.14/datatable-1.1.14.jar:/Users/tushargaur/.m2/repository/io/cucumber/datatable-dependencies/1.1.14/datatable-dependencies-1.1.14.jar:/Users/tushargaur/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/tushargaur/.m2/repository/io/cucumber/cucumber-junit/4.8.0/cucumber-junit-4.8.0.jar:/Users/tushargaur/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/tushargaur/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/tushargaur/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.jar:/Users/tushargaur/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.jar:/Users/tushargaur/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/tushargaur/eclipse-workspace/APIFramework/target/surefire/surefirebooter-20250402210413803_3.jar /Users/tushargaur/eclipse-workspace/APIFramework/target/surefire 2025-04-02T21-04-13_730-jvmRun1 surefire-20250402210413803_1tmp surefire_0-20250402210413803_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/tushargaur/eclipse-workspace/APIFramework/target/test-classes:/Users/tushargaur/eclipse-workspace/APIFramework/target/classes:/Users/tushargaur/.m2/repository/io/rest-assured/rest-assured/5.5.1/rest-assured-5.5.1.jar:/Users/tushargaur/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/tushargaur/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/tushargaur/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tushargaur/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tushargaur/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tushargaur/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tushargaur/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tushargaur/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/tushargaur/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tushargaur/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1.jar:/Users/tushargaur/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/tushargaur/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1.jar:/Users/tushargaur/.m2/repository/io/rest-assured/xml-path/5.5.1/xml-path-5.5.1.jar:/Users/tushargaur/.m2/repository/org/apache/commons/commons-lang3/3.16.0/commons-lang3-3.16.0.jar:/Users/tushargaur/.m2/repository/io/cucumber/cucumber-java/4.8.0/cucumber-java-4.8.0.jar:/Users/tushargaur/.m2/repository/io/cucumber/cucumber-core/4.8.0/cucumber-core-4.8.0.jar:/Users/tushargaur/.m2/repository/io/cucumber/gherkin/5.1.0/gherkin-5.1.0.jar:/Users/tushargaur/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/Users/tushargaur/.m2/repository/io/cucumber/cucumber-expressions/7.0.2/cucumber-expressions-7.0.2.jar:/Users/tushargaur/.m2/repository/io/cucumber/datatable/1.1.14/datatable-1.1.14.jar:/Users/tushargaur/.m2/repository/io/cucumber/datatable-dependencies/1.1.14/datatable-dependencies-1.1.14.jar:/Users/tushargaur/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/tushargaur/.m2/repository/io/cucumber/cucumber-junit/4.8.0/cucumber-junit-4.8.0.jar:/Users/tushargaur/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/tushargaur/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/tushargaur/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.jar:/Users/tushargaur/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.jar:/Users/tushargaur/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/tushargaur"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/tushargaur/eclipse-workspace/APIFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/tushargaur/eclipse-workspace/APIFramework/target/surefire/surefirebooter-20250402210413803_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="user.name" value="tushargaur"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/tushargaur/.m2/repository"/>
+    <property name="cucumber.options" value="--tags @Regression"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/lh/nnhkqjf54y5dxwt9jx885r0c0000gn/T/"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="/Users/tushargaur/eclipse-workspace/APIFramework"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/tushargaur/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Verify if Place is being succesfully added using AddPlaceAPI" classname="Validating Place APIs" time="3.074">
+    <system-out><![CDATA[/maps/api/place/add/json
+/maps/api/place/get/json
+]]></system-out>
+  </testcase>
+  <testcase name="Verify if Delete Place functionality is working" classname="Validating Place APIs" time="2.335">
+    <system-out><![CDATA[/maps/api/place/delete/json
+]]></system-out>
+  </testcase>
+</testsuite>
