@@ -26,6 +26,7 @@ public class GraphQLScript {
 				.asString();
 		System.out.println(mutationResponse);
 		System.out.println("testing github demo");
+		System.out.println("testing github demo2");
 		
 	}
 
