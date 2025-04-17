@@ -6,7 +6,7 @@ A production-ready REST API automation framework built using **Java**, **Rest As
 
 ## 🔧 Tech Stack
 
-- Java 11+
+- Java 21
 - Rest Assured
 - TestNG
 - Maven
